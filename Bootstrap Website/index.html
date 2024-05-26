@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .offcanvas-start {
+            max-width: 200px;
+            transition: max-width 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-info fixed-top">
+            <div class="container-fluid">
+                <button class="offcanvas-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop"><i class="bi bi-list"></i></button> &nbsp; &nbsp;
+                <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="" id="log-img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profilio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- this is the navbar end of the code -->
+        <!-- this is the carosel start-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/carosel7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carosel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carosel9.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- this is the carosel end -->
+        <!-- this is the sidebar start -->
+        <div id="sidbar">
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasTopLabel">Content</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Russian .html">RUSSIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Indian.html">INDIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="American.html">AMERICAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="WestIndies.html">WESTINDIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="African.html">AFRICAN</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Australian.html">AUSTELRIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pakistan.html">PAKISTAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Nepal.html">NEPAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bangladesh.html">BANGLADESH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">AUSTELRIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">AUSTELRIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">AUSTELRIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">AUSTELRIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">AUSTELRIAN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">AUSTELRIAN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="rainbow-text">Russian</h3>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="images/img11.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img src="images/img13.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="images/img14.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <img src="images/img15.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A1.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A2.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A3.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A4.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A5.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A6.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A7.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A8.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A9.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A10.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A11.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A12.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A13.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A14.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A15.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A16.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A17.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A18.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A19.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-3">
+                            <div class="card">
+                                <img src="images/A20.jpg" alt="Avatar" class="image-maintaines">
+                                <div class="container">
+                                    <h5 class="card-details">Name: John Doe</h5>
+                                    <h5 class="card-details">Age: 22</h5>
+                                    <h5 class="card-details">Price: 12000</h5>
+                                    <h5 class="card-details">Contact: 8545825736</h5>
+                                    <h5 class="card-details">Rating: <i class="bi bi-star"></i><i
+                                            class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                                    </h5>
+                                    <button type="button" class="bok-now">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add more cards as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script>
+        const text = document.querySelector('.rainbow-text');
+        const colors = ['#FF0000', '#FF7F00', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#9400D3']; // Array of colors
+
+        const chars = text.textContent.split('');
+        text.textContent = ''; // Clear the text content
+
+        chars.forEach((char, index) => {
+            const span = document.createElement('span');
+            span.textContent = char;
+            span.style.color = colors[index % colors.length]; // Assign a color from the array
+            text.appendChild(span);
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

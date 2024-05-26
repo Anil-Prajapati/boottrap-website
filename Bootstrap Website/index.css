@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-item {
+    margin: 2px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px red;
+    justify-content: space-between;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2px;
+}
+
+.nav-item a:hover {
+    color: #FFFFFF;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#log-img {
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 50%;
+}
+
+.btn-outline-success {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* navbar css here is completed  */
+
+.container-fluid {
+    display: flex;
+}
+
+.card-img-top {
+    height: 199px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 199px;
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-details {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px red;
+}
+
+.bok-now {
+    background-color: red;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bok-now:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.image-maintaines {
+    height: 300px;
+}
+
+.offcanvas-button {
+    width: 40px;
+    height: 35px;
+    background-color: #ff0000;
+    color: #FFFFFF;
+    border: 2px solid #ff0000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.offcanvas-button:hover {
+    background-color: #0000ff;
+    border: 2px solid #ff0000;
+    color: #ff00bf;
+}
+
+.content-list {
+    text-decoration: none;
+}
+
+.d-block {
+    height: 440px;
+}
+
+#carouselExampleControls {
+    margin-top: 75px;
+}
+
+.rainbow-text {
+    display: inline-block;
+}
+#american-text{
+    background-color: rgb(11, 214, 214);
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Add more styles as needed */
